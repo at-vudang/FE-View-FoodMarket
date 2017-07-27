@@ -8,10 +8,10 @@ import {AfterViewInit, Component, ElementRef, ViewChild} from '@angular/core';
 export class AppComponent {
   title = 'app';
   // title = 'app works!';
-  @ViewChild('nameInput') name: ElementRef;
-
-  sayHello() {
-    alert('Hello World!');
-    this.name.nativeElement.focus();
-  }
+  // @ViewChild('nameInput') name: ElementRef;
+  //
+  // sayHello() {
+  //   alert('Hello World!');
+  //   this.name.nativeElement.focus();
+  // }
 }
