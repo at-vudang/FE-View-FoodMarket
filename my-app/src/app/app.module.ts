@@ -9,7 +9,9 @@ import { CARTCOMPONENTS } from './component/cart';
 import { TEMPLATECOMPONENTS } from './component/template';
 import { HOMECOMPONENTS } from './component/home';
 
-
+import { RegisterComponent } from './component/register/register.component';
+import { PaymentComponent } from './component/payment/payment.component';
+import { LoginComponent } from './component/login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +22,9 @@ import { HOMECOMPONENTS } from './component/home';
     TEMPLATECOMPONENTS,
     HOMECOMPONENTS,
     // ProductListComponent
+    LoginComponent,
+     RegisterComponent,
+    PaymentComponent
   ],
   imports: [
    routing,
