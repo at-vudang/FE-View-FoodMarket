@@ -4,11 +4,13 @@ import {CategoryComponent} from './component/category/category.component';
 import {SearchComponent} from './component/search/search.component';
 import {ProductComponent} from './component/product/product.component';
 import {CartComponent} from './component/cart/cart.component';
+import { HomeComponent } from './component/home/home.component';
+
 import {NotFoundComponent} from './component/template/not-found/not-found.component';
 const appRoutes: Routes = [
 
   { path: 'category', component: CategoryComponent },
-  { path: '', component: SearchComponent },
+  { path: '', component: HomeComponent },
   { path: 'detail/:id',      component: ProductComponent },
   {
     path: 'cart',
@@ -19,6 +21,7 @@ const appRoutes: Routes = [
     redirectTo: '/',
     pathMatch: 'full'
   },
+  {path: 'home', component: HomeComponent },
   { path: '**', component: NotFoundComponent }
 ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
