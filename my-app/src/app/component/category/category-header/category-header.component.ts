@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./category-header.component.css']
 })
 export class CategoryHeaderComponent implements OnInit {
-
+  nameCategory: string;
   constructor() { }
 
   ngOnInit() {

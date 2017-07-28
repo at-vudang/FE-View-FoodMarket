@@ -7,6 +7,9 @@ import { PRODUCTCOMPONENTS } from './component/product';
 import { SEARCHCOMPONENTS } from './component/search';
 import { CARTCOMPONENTS } from './component/cart';
 import { TEMPLATECOMPONENTS } from './component/template';
+import { MAINCOMPONENTS } from './component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,8 @@ import { TEMPLATECOMPONENTS } from './component/template';
     PRODUCTCOMPONENTS,
     SEARCHCOMPONENTS,
     CARTCOMPONENTS,
-    TEMPLATECOMPONENTS
+    TEMPLATECOMPONENTS,
+    MAINCOMPONENTS
   ],
   imports: [
    routing,
