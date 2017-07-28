@@ -8,7 +8,6 @@ import { SEARCHCOMPONENTS } from './component/search';
 import { CARTCOMPONENTS } from './component/cart';
 import { TEMPLATECOMPONENTS } from './component/template';
 import { HOMECOMPONENTS } from './component/home';
-// import { ProductListComponent } from './component/home/home-riceorder/src/app/component/home/home-riceorder/product-list/product-list.component';
 
 
 @NgModule({
