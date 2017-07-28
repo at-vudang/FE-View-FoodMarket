@@ -14,10 +14,10 @@
             <div class="header_user_info e-scale 1">
               <ul class="links">
                 <li>
-                  <a href="" title="Đăng nhập" id="customer_login_link">Đăng nhập</a>
+                  <a href="/login" title="Đăng nhập" id="customer_login_link">Đăng nhập</a>
                 </li>
                 <li>
-                  <a href="" title="Đăng ký" id="customer_register_link">Đăng ký</a>
+                  <a href="/register" title="Đăng ký" id="customer_register_link">Đăng ký</a>
                 </li>
               </ul>
             </div>
@@ -104,42 +104,10 @@
             </div>
             <!-- end top menu -->
             <div class="inner no-padding col-lg-8 col-md-8 col-sm-8 hidden-xs">
-              <div class="search_block_top clearfix">
-                <div class="nav-search visible">
-                  <form class="input-group searchbox search-box" action="" method="get" role="search">
-                    <div class="filter_type category_filter input-group-addon group-addon-select icon-selec">
-                      <select name="category_id" class="no-border">
-                        <option value="0">Tất cả các danh mục</option>
-                        <option value="">Cơm</option>
-                        <option value="">Cơm</option>
-                        <option value="">Cơm</option>
-                        <option value="">Cơm</option>
-                      </select>
-                    </div>
-                    <div class="search-input-wrapper clearfix input-group">
-                      <input class="search_query_top form-control input-lg input-search" size="35" type="search" name="query" value="" placeholder="Tìm kiếm ..." aria-label="Tìm kiếm ...">
-                      <span class="input-group-addon input-group-search">
-                          <button class="search_button" type="submit">Tìm kiếm</button>
-                          </span>
-                    </div>
-                  </form>
-                </div>
-              </div>
+              <app-search-block-header></app-search-block-header>
             </div>
             <div class="inner col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <div id="cart" class="blockcart_top clearfix">
-                <div class="media heading">
-                  <div class="cart-inner media-body">
-                    <a href="#" id="CartToggle">
-                      <div class="icon-cart"></div>
-                      <span class="fix-cart">GIỎ HÀNG</span>
-                      <span id="CartCount">5</span>
-                      <span> - </span>
-                      <span id="CartCost">320.000₫</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              <app-cart-block></app-cart-block>
             </div>
           </div>
         </div>
